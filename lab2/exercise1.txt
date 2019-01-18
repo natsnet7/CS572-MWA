@@ -1,0 +1,3 @@
+1.when we want our event to be executed immediately after an incoming connections we should use setImmediate instead of setTimeOut since SetImmediate is located in check phase and incomming connection  is set in incomming connections phase
+2. process.nextTick is located in the nextTick queue which gives it priorty of execution than setImmediate which is located in the even loop queue
+3. http, https, stream, fs, OS, http2, url, path, events, buffer,Timers
