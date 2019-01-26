@@ -41,6 +41,7 @@ String.prototype.filterWords3 = function(args){
         return result;
         } catch (error) {
             console.log(error);
+            
         }
         
     };
